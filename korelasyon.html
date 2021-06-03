@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Korelasyon</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">HESAP MAKİNESİ</a></li>
+        <li><a href="hesap.html">PERMÜTASYON KOMBİNASYON FAKTÖRİYEL</a></li>
+        <li><a href="regresyon.html">REGRESYON</a></li>
+        <li><a class="active" href="korelasyon.html">KORELASYON</a></li>
+        <li><a href="bilgiler.html">BİLGİLER</a></li>
+    
+    </ul>
+
+    <br><br>
+    <div class="kbilgi">
+        <br> <br>
+        <h2>Korelasyon Katsayısı Nedir?</h2>
+        <p>Korelasyon katsayısı, değişkenler arasındaki ilişkiyi göstermek için kullanılan bir değerdir. Değişken, aşağıdaki formülle hesaplandığında -1 ile 1 arasında bir değer alır. 
+        <br>Negatif değerler negatif ilişkiyi, pozitif değerler ise pozitif ilişki olduğunu gösterir. 
+        Değerler 1 veya -1 olduğunda mükemmel bir ilişki vardır. Değerler 0'a yaklaştıklarında değişkenlerin aralarındaki ilişki de azalır.</p> <br>
+
+        <div class="formul">
+            <img align="center" src="resimler/KorelasyonFormulu.png" alt="Korelasyon hesaplama formülü">
+
+        </div>
+       
+    
+     
+    </div>
+
+    <div class="korelasyon">
+        <div class="uyari">
+            <p align="justify" >X ve Y değerleri için her iki satıra da aynı sayıda eleman girmelisiniz. <br> Hesaplama yapabilmek için en az <b><font color='blue'>üçer</font></b> X ve Y değeri girmelisiniz.
+            <br> Son veri girilirken virgül (,) yoktur. <br> Örnek Veri Girişi: <b><font color='red'>1,4,5,3 </font> </b>  </p>
+
+        </div> 
+            <br><br>
+        <div class="khesap">
+            
+            <div class="elmn">
+                <br> <br>
+                x değerleri: 
+                <input class="kbtn1" type="text" id="x" placeholder="Lütfen sayıları girin."><br><br> <br />
+                y değerleri: 
+                <input class="kbtn2" type="text" id="y" placeholder="Lütfen sayıları girin."><br><br>
+                <input class="kbtnn" type="button" value="Hesapla" onclick="korelasyonbuton()"><br> <br>
+        
+                
+
+            </div>
+            
+                <h3 id="text"></h3>
+            
+
+             
+        </div>
+       
+        
+        
+
+    </div>
+    
+    
+    
+</body>
+<script src="hesapmakinesi.js"></script>
+</html>

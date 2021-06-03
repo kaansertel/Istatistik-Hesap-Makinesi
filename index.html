@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>İstatistik</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+    
+    <ul>
+        <li><a class="active" href="index.html">HESAP MAKİNESİ</a></li>
+        <li><a href="hesap.html">PERMÜTASYON KOMBİNASYON FAKTÖRİYEL</a></li>
+        <li><a href="regresyon.html">REGRESYON</a></li>
+        <li><a href="korelasyon.html">KORELASYON</a></li>
+        <li><a href="bilgiler.html">BİLGİLER</a></li>
+    
+    </ul>
+       
+
+
+   <!--
+    <div class="kapak">
+    <p>S.Sapma =>  Standart Sapma (s)</p>
+    <p>S.S.V => Standart Sapma Varyansı (s<sup>2</sup>)</p> 
+    <p>P.S.S => Popülasyon Standart Sapması (σ)</p>
+    <p>P.S.S.V => Popülasyon Standart Sapma Varyansı (σ<sup>2</sup>)</p>
+    <br><br><br><br>
+    <p>Lütfen hesap makinesine veri girerken kutucuğun sol üst <br /> tarafından yazmaya başlayınız !</p>
+    <p>Verilerden sonra araya virgül koyunuz !</p>
+    <p>Son veriyi girdikten sonra virgül koymayı unutmayınız !</p>
+    <p>Örnek Veri Girişi :  1,2,3,4,4,4,4, </p>
+
+    
+        
+    </div>
+    
+    -->
+
+
+    <div class="not">
+        <h1 class="baslik">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HESAPLAMALAR</h1>
+        <h3 class="hesap" id="text"></h3>
+        <h3 class="hesap" id="text2"></h3>
+        <h3 class="hesap" id="text3"></h3>
+        <h3 class="hesap" id="text4"></h3>
+        <h3 class="hesap" id="text5"></h3>
+        <h3 class="hesap" id="text6"></h3>
+        <h3 class="hesap" id="text7"></h3>
+        <h3 class="hesap" id="text8"></h3>
+        <h3 class="hesap" id="text9"></h3>
+        <h3 class="hesap" id="text10"></h3>
+        <h3 class="hesap" id="text11"></h3>
+        <h3 class="hesap" id="text12"></h3>
+        <h3 class="hesap" id="text13"></h3>
+
+
+    </div>
+
+    <br>
+    
+    <div class="renk">
+        <form id="hesaplama">
+
+            <textarea id="veriler" rows="10" cols="40" class="alan"></textarea>
+
+            <br><br><br><br>
+
+
+            <input type="button" onclick="aritmetikButon()" class="yuvarlak button1" value="Aritmetik">
+            <input type="button" onclick="modHesaplamaButon()" class="yuvarlak button2" value="Mod">
+            <input type="button" onclick="medyanHesaplamaButon()" class="yuvarlak button3" value="Medyan">
+            <br><br>
+
+            <input type="button" onclick="geometrikOrtalamaButon()" class="yuvarlak button4 " value="Geometrik">
+            <input type="button" onclick="harmonikOrtalamaButon()" class="yuvarlak button5" value="Harmonik">
+            <input type="button" onclick="standartSapmaButon()" class="yuvarlak button6" value="S.Sapma">
+            <br><br>
+
+            <input type="button" onclick="standartSapmaVaryansıButon()" class="yuvarlak button7" value="Varyans">
+            <input type="button" onclick="populasyonStandartSapmaButon()" value="P.S.S" class=" yuvarlak button8">
+            <input type="button" onclick="populasyonStandartSapmaVaryansButon()" value="P.Varyansı"
+                class="yuvarlak button9">
+            <br><br>
+
+            <input type="button" onclick="veriAcikligiButon()" value="Açıklık" class="yuvarlak button10">
+            <input type="button" onclick="hesap()" class=" button" value="Bütün İşlemler">
+        </form>
+    </div>
+   
+
+    <div class="nott">
+        <p>S.Sapma =>  Standart Sapma (s)</p>
+        <p>P.S.S => Popülasyon Standart Sapması (σ)</p>
+        <p>P.Varyansı => Popülasyon Varyansı (σ<sup>2</sup>)</p>
+        <br>
+        
+        <p>Verilerden sonra araya virgül koyunuz !</p>
+        <p>Son veriyi girdikten sonra virgül koymayı unutmayınız !</p>
+        <p>Örnek Veri Girişi :  1,2,3,4,4,4,4, </p>
+    
+        
+            
+    </div>
+    
+        
+
+
+
+</body>
+<script src="hesapmakinesi.js"></script>
+
+</html>

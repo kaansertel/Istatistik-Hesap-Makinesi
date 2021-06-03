@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Permutasyon,Kombinasyon,Faktoriyel</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body >
+
+        <ul>
+            <li><a href="index.html">HESAP MAKİNESİ</a></li>
+            <li><a class="active" href="hesap.html">PERMÜTASYON KOMBİNASYON FAKTÖRİYEL</a></li>
+            <li><a href="regresyon.html">REGRESYON</a></li>
+            <li><a href="korelasyon.html">KORELASYON</a></li>
+            <li><a href="bilgiler.html">BİLGİLER</a></li>
+        
+        </ul>
+
+        <br><br>
+
+        <div class="ayar" >
+            <form>
+                <br> 
+                <div class="eleman">
+                    <b>Eleman sayısı (n) değeri:</b> <input type="text" class="buttoo " id="n" />
+                    <br> <br><br> 
+                    <b>Seçim sayısı (r) değeri:</b> <input type="text" class="butto " id="r" />
+                    <br> <br> 
+
+                </div>
+                <br>
+
+                <input type="button" class="yuvarla button " onclick="permutasyonButon()" value="PERMÜTASYON">
+                <input type="button" class="yuvarla button " onclick="kombinasyonButon()" value="KOMBİNASYON">
+
+            </form> 
+        </div>
+        
+        <div class="ayar2">
+            <form>
+                <div class ="faktoriyelbut">
+                <b>Faktöriyel sayısı:</b> <input type="text" class="butto2"  id="f" />
+                </div>
+                <br>
+                <input type="button" class="faktoriyel" onclick="faktoriyelButon()" value="FAKTÖRİYEL">
+
+            </form>
+        </div>
+
+       <!-- <div class="yazi">
+            <h3 id="text"></h3>
+        </div>
+        <div class="yazi1">
+            <h3 id="text2"></h3>
+        </div>
+        <div class="yazi2">
+            <h3 id="text3"></h3>
+        </div>
+
+        <div class="yazi3">
+            <h3 id="text4"></h3>
+        </div>
+
+        <div>
+            <h3 id="text5"></h3>
+        </div>
+
+        <div>
+            <h3 id="text6"></h3>
+        </div>-->
+
+
+        <div class="ayar3 "> 
+           <form> <div class="ayarper">
+                <h2>Dairesel Permütasyon Hesaplama</h2>
+                <b>Eleman sayısı:</b> <input type="text" class="butto2"  id="pf" />
+                </div>
+                <br> <br>
+                <input type="button" class="faktoriyel" onclick="daireselPermutasyonButon()" value="HESAPLA">
+
+            </form> 
+        </div>
+        
+        
+        <div class="ayar4 ">
+            <form>
+                <br> 
+                <div class="ayarkom">
+                    <h2>Tekrarlı Kombinasyon Hesaplama</h2>
+                    <b>Eleman sayısı (n) değeri:</b> <input type="text" class="butto2" id="n2" />
+                    <br> <br><br> 
+                    <b>Seçim sayısı (r) değeri:</b> <input type="text" class="butto2" id="r2" />
+                </div>
+               <br> <br> 
+    
+            
+            <input type="button" class="kombinasyon" onclick="tekrarliKombinasyon()" value="Hesapla">
+
+             </form> 
+        </div>
+             
+   
+
+ 
+    
+    <div class="yazi">
+        <h3 id="text"></h3>
+    </div>
+
+    <div class="yazi1">
+        <h3 id="text2"></h3>
+    </div>
+
+    <div class="yazi2">
+        <h3 id="text3"></h3>
+    </div>
+
+    <div class="yazi3">
+        <h3 id="text4"></h3>
+    </div>
+
+    <div class="yazi4">
+        <h3 id="text5"></h3>
+    </div>
+
+    <div class="yazi5"> 
+        <h3 id="text6"></h3>
+    </div>
+
+    
+
+    </body>
+    <script src="hesapmakinesi.js"></script>
+</html>

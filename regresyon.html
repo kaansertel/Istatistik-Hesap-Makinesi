@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Regresyon</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">HESAP MAKİNESİ</a></li>
+        <li><a href="hesap.html">PERMÜTASYON KOMBİNASYON FAKTÖRİYEL</a></li>
+        <li><a class="active" href="regresyon.html">REGRESYON</a></li>
+        <li><a href="korelasyon.html">KORELASYON</a></li>
+        <li><a href="bilgiler.html">BİLGİLER</a></li>
+    
+    </ul>
+
+    <br><br>
+
+    <div class="rbilgi">
+        <br> <br>
+        <h2><font color='purple'>Regresyon Nedir?</font></h2>
+        <p>Bağımlı ve bağımsız iki değişkenin aralarındaki ilişkiyi analiz etmede kullanılan yöntemdir.
+           Regresyon analizinde, kullanılan bağımsız değişken, hava sıcaklığı gibi bizim etkimiz dışında oluşan değerlerdir.
+           Bağımlı değişken ise dondurma tüketim miktarı gibi ilişki durumu incelenecek bağımsız değişkenden (sıcaklıktan) 
+           etkilenerek arttığını veya azaldığını düşündüğümüz değerlerdir. 
+        <br><br>Regresyon analizinde hesaplama sonucu ortaya bir fonksiyon çıkar.Regresyon analizi de değerler arasındaki ilişkiyi araştırır.
+         Ancak regresyon analizinde ortaya çıkan fonksiyonu kullanarak bağımsız değişkenin alabileceği herhangi bir değerde bağımlı değişkenin ne olacağını tahmin edebiliriz.
+        <br><br>
+        Regresyon analizi, burada bahsedilenden daha fazla, önem testi, güven sınırları gibi işlemler ile bizim hesapsladığımız ve grafiğini çizdiğiniz doğru denklemi haricinde, 
+        parabolik ilişki, üssel eğri, geometrik eğri, hiperbolik ilişki gibi fonksiyonları da içerir. Burada sadece temel olarak doğrusal fonksiyon hesaplaması yapılmıştır.
+        
+        <!-- <div class="formul">
+            <img align="center" src="resimler/KorelasyonFormulu.png" alt="Korelasyon hesaplama formülü">
+
+        </div>
+        -->
+    
+     
+    </div>
+
+    <div class="regresyon1">
+        <div class="uyari">
+            <p align="justify" >X ve Y değerleri için her iki satıra da aynı sayıda eleman girmelisiniz. <br> Hesaplama yapabilmek için en az <b><font color='purple'>ikişer</font></b> X ve Y değeri girmelisiniz.
+            <br> Son veri girilirken virgül (,) yoktur. <br> Örnek Veri Girişi: <b><font color='red'>1,4,5,3 </font> </b>  </p>
+
+        </div> 
+            <br><br>
+
+        <div class="regresyon">
+            
+            <div class="elmn">
+                <br> <br>
+                x değerleri: 
+                <input class="kbtn1" type="text" id="x" placeholder="Lütfen sayıları girin."><br><br> <br />
+                y değerleri: 
+                <input class="kbtn2" type="text" id="y" placeholder="Lütfen sayıları girin."><br><br>
+                <input class="kbtnn" type="button" value="Hesapla" onclick="regresyonbuton()"><br> <br>
+        
+                
+
+            </div>
+            
+                <h3 id="text"></h3>
+            
+
+             
+        </div>
+       
+        
+        
+
+    </div>
+
+
+
+
+    <!--
+    <div class="regresyon">
+        <br /> <br />
+        <div class="eleman">
+            x değerleri: 
+            <input class="btnn" type="text" id="x" placeholder="Lütfen sayıları girin."><br><br>
+            y değerleri: 
+            <input class="btn" type="text" id="y" placeholder="Lütfen sayıları girin."><br><br>
+            <input class="rbuton" type="button" value="Hesapla" onclick="regresyonbuton()"><br> <br>
+        
+            <h3 class="h3r" id="text"></h3>
+
+        </div>
+       
+    </div>
+-->
+    
+</body>
+<script src="hesapmakinesi.js"></script>
+</html>
