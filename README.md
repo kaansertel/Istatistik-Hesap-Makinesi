@@ -40,4 +40,4 @@ Olasılık ve istatistik dersi kapsamında geliştirdiğimiz Web tabanlı bir pr
 <http://grup12.eu5.org/>
 
 ## Hesap Makinesinin Ekran Görüntüsü:
-![HesapMakinesi](https://github.com/kaansertel/Istatistik-Hesap-Makinesi/blob/main/hesapMakinesi.png)
+![HesapMakinesi](https://github.com/kaansertel/Istatistik-Hesap-Makinesi/blob/main/IstatistikHesapMakinesi.png)
