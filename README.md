@@ -37,8 +37,8 @@ Olasılık ve istatistik dersi kapsamında geliştirdiğimiz Web tabanlı bir pr
 - JavaScript
 
 ## Demo:
-<http://grup12.eu5.org/>
-<https://kaansertel.github.io/Istatistik-Hesap-Makinesi>
+- <http://grup12.eu5.org/>
+- <https://kaansertel.github.io/Istatistik-Hesap-Makinesi>
 
 ## Hesap Makinesinin Ekran Görüntüsü:
 ![HesapMakinesi](https://github.com/kaansertel/Istatistik-Hesap-Makinesi/blob/main/IstatistikHesapMakinesi.png)
